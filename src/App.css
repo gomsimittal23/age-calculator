@@ -1,0 +1,44 @@
+*{
+  padding: 0;
+  margin: 0;
+  /* background-color: rgb(36, 33, 33); */
+  background-color: #0288D1;
+  color: white;
+}
+.app{
+  padding: 6rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 2px solid yellow; */
+}
+h1{
+  font-size: 4rem;
+  margin-bottom: 16px;
+}
+input{
+  color: white;
+  padding: 4px;
+  font-size: 28px;
+  outline: none;
+  border: 2px solid black;
+  text-align: center;
+  margin: 0 1rem;
+  background-color: rgb(102, 180, 233);
+  /* background-color: rgb(117, 223, 117); */
+}
+.input_date{
+  padding: 2rem;
+}
+::placeholder{
+  color: aliceblue;
+}
+.btn{
+  padding: 4px;
+  background-color: green;
+  font-size: 20px;
+  outline: none;
+}
+.btn:hover{
+  cursor: pointer;
+}
